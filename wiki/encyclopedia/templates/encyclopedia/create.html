@@ -1,0 +1,10 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block body %}
+    <form method="POST">
+        {% csrf_token %}
+        {{ create }}
+
+        <button type="submit" class="btn btn-primary">Create the post</button>
+    </form>
+{% endblock body %}

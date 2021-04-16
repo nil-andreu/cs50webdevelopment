@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>All Pages</h1>
+
+    <ul>
+        {% for title in titles %}
+            <li><a href="wiki/{{ title }}">{{ title }}</a></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced</title>
+    <link rel="stylesheet" href="advanced.css">
+</head>
+<body>
+    <navbar class="google_navbar">
+        <a href="index.html" class="google_logo"><img src="googleimage.png" alt="Google logo"></a>
+        <a href="index.html" class="normal_search">Normal search</a>
+    </navbar>
+    <div class="advanced">
+        <div class="advanced_search">
+            <label class="advanced_search-label">Advanced search</label>
+        </div>
+        <hr>
+        <div>
+            <form action="https://google.com/search" class="advanced_form">
+                <div class="advanced_form-header">
+                    <div class="advanced_form-title">
+                        <p>Search pages with...</p>
+                    </div>
+                    <div></div>
+                    <div class="advanced_form-indication">
+                        Do the following in the search box
+                    </div>
+                </div>
+                
+                <div class="advanced_form-div">
+                    <div class="all_words form_grid">
+                        <div class="all_words-label label_class">
+                            <label for="all">All the words</label>
+                        </div>
+                        <div class="all_words-input">
+                            <input name="as_q" type="text">
+                        </div>
+                        <div class="all_words-span small_size">
+                            Type the important words:  
+                            <span for="all">tri-colour rat terrier</span>
+                        </div>
+                    </div>
+                    <div class="exact_words form_grid">
+                        <div>
+                            <label for="all">This exact word or phase</label>
+                        </div>
+                        <div>
+                            <input name="as_epq" type="text">
+                        </div>
+                        <div class="small_size">
+                            Put exact words in quotes: 
+                            <span for="all">"rat terrier"</span>
+                        </div>
+                    </div>
+                    <div class="any_words form_grid">
+                        <div>
+                            <label for="all">Any of these words</label>
+                        </div>
+                        <div>
+                            <input name="as_oq" type="text">
+                        </div>
+                        <div class="small_size">
+                            Write 
+                            <span>OR</span>
+                            between the words you want: 
+                            <span for="all">miniature OR standard</span>
+                        </div>
+                    </div>
+                    <div class="none_words form_grid">
+                        <div>
+                            <label for="all">None of these words</label>
+                        </div>
+                        <div>
+                            <input name="as_eq" type="text">
+                        </div>
+                        <div class="small_size">
+                            Put a minus sign just before the words that you do not want: 
+                            <span for="all">-rodent, -"Jack Russel"</span>
+                        </div>
+                    </div>
+                    <div class="form_grid">
+                        <input type="submit" value="Advanced Search" class="input_submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
