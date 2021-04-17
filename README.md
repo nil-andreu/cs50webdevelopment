@@ -20,4 +20,10 @@ I am going to show the different exercises for the course of Harvard on EDX of C
     <td><a href="/wiki/">Wiki</a></td>
     <td><a href="https://www.youtube.com/watch?v=odPiu86oxnE&t=4s">Youtube</a></td>
   </tr>
+  <tr>
+    <td>Ecommerce</td>
+    <td>Create an ecommerce aplication to sell different products</td>
+    <td><a href="">Not yet</a></td>
+    <td><a href="">Not yet</a></td>
+  </tr>
 </table>
