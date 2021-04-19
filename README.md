@@ -22,7 +22,7 @@ I am going to show the different exercises for the course of Harvard on EDX of C
   </tr>
   <tr>
     <td>Ecommerce</td>
-    <td>Create an ecommerce aplication to sell different products</td>
+    <td>Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”</td>
     <td><a href="">Not yet</a></td>
     <td><a href="">Not yet</a></td>
   </tr>
