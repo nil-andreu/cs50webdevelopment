@@ -10,7 +10,7 @@ I am going to show the different exercises for the course of Harvard on EDX of C
   </tr>
   <tr>
     <td>Google</td>
-    <td>Create a Google Search Clone, with the functionalities of advanced search and images.</td>
+    <td>Create a Google Search Clone, with the functionalities for advanced search and images.</td>
     <td><a href="/search/">Search</a></td>
     <td><a href="https://youtu.be/bwXzvG7vxpQ">Youtube</a></td>
   </tr>
